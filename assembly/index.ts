@@ -1,7 +1,6 @@
 import { http } from "@hypermode/modus-sdk-as";
 import { JSON } from "json-as";
 
-// Fixed Map implementation
 class StringMap {
   private items: Map<string, string>;
 
@@ -106,7 +105,6 @@ class DatasetMetrics {
   distribution: StringMap = new StringMap();
 }
 
-// Enhanced User types with proper initialization
 @json
 class UserProfile {
 
